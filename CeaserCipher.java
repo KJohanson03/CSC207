@@ -1,12 +1,14 @@
-//Mini project 1
-//Kevin Johanson 9/1/2023
+//Code written by Kevin Johanson 9/7/23
+//Ceaser Cipher 
+// SamR CSC 207 Mini-project 1
+//
 
 
 
 
 package Package1;
 
-public class miniProj1 {
+public class CeaserCipher {
 
 	public static void main(String[] args) {
 			String plainText;
@@ -36,6 +38,7 @@ public class miniProj1 {
 			
 	}
 
+	//shows all possible Ceaser Cipher decodings of the string given
 	public static void decode(String cipherText) {
 		java.io.PrintWriter pen = new java.io.PrintWriter(System.out, true);
 		pen.println("Decode: ");
@@ -54,6 +57,9 @@ public class miniProj1 {
 		}
 		
 	}
+	
+	
+	//shows all possible Ceaser Cipher encodings of the string given
 	public static void encode(String plainText) {
 		java.io.PrintWriter pen = new java.io.PrintWriter(System.out, true);
 		pen.println("Encode: ");
